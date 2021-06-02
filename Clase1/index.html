@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="form.js"></script>
+    <link rel="StyleSheet" href="style.css" type="text/css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form name="formulario">
+      <p>
+        <label>Nombre :</label>
+        <input type="text" name="nombre" size="50" />
+      </p>
+      <p>
+        <label>Apellido :</label>
+        <input type="text" name="apellido" size="50" />
+      </p>
+
+      <input type="button" value="Enviar" onclick="envio(this.form);" />
+    </form>
+  </body>
+</html>
