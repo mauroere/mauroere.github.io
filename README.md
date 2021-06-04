@@ -1,2 +1,1 @@
-# mauroere.github.io
-Prácticas del curso React - CorderHouse
+# Prácticas del curso React - CorderHouse
