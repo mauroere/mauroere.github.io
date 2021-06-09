@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="container-fluid">
       <NavBar />
+
       <h1 className="text-center">Ofertas de la semana</h1>
     </div>
   );
