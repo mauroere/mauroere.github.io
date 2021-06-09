@@ -1,21 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import { NavBar } from "./components/NavBar/NavBar";
+import "./styles/styles.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Clase 2 - Trabajo entregable</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Aprendiendo React
-        </a>
-      </header>
+    <div className="container-fluid">
+      <NavBar />
+      <h1 className="text-center">Ofertas de la semana</h1>
     </div>
   );
 }
