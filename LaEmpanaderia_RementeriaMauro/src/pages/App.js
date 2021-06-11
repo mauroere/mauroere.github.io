@@ -1,8 +1,8 @@
 import React from "react";
-import { NavBar } from "./components/NavBar/NavBar";
-import "./styles/styles.css";
+import { NavBar } from "../components/NavBar/NavBar";
+import "../styles/styles.css";
 
-function App() {
+export const App = () => {
   return (
     <div className="container-fluid">
       <NavBar />
@@ -10,6 +10,4 @@ function App() {
       <h1 className="text-center">Ofertas de la semana</h1>
     </div>
   );
-}
-
-export default App;
+};

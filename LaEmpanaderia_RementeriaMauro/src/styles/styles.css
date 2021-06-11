@@ -67,7 +67,6 @@ body {
     width: 180px;
   }
 
-  .logo:hover,
   .nav-links:hover {
     color: rgba(255, 255, 255, 1);
   }
