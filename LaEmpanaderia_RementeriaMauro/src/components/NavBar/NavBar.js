@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/img/logo.png";
+import { CartWidget } from "../CartWidget/CartWidget";
 
 export const NavBar = () => {
   return (
@@ -17,9 +18,10 @@ export const NavBar = () => {
         <li>
           <p className="nav-links">DELIVERY</p>
         </li>
-        <li>
-          <p className="nav-links">CONTACTANOS</p>
-        </li>
+
+        <div className="cart">
+          <CartWidget />
+        </div>
       </ul>
     </nav>
   );
