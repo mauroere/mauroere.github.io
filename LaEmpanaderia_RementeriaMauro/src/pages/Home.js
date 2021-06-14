@@ -4,10 +4,12 @@ import { ItemListContainer } from "../components/ItemListContainer/ItemListConta
 import "../styles/styles.css";
 
 export const Home = () => {
+  const greetings = "Ofertas de la semana";
+
   return (
     <div className="container-fluid">
       <NavBar />
-      <ItemListContainer />
+      <ItemListContainer greetings={greetings} />
     </div>
   );
 };
