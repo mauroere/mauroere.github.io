@@ -1,0 +1,33 @@
+.item {
+    width: 150px;
+    padding: 0 0.8rem 0.8rem 0.8rem;
+    background-color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .item img {
+    margin-top: -3.5rem;
+    height: 130px;
+    object-fit: contain;
+  }
+ 
+  .item-head_desc p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .item-head_desc {
+    text-align: left;
+    flex: 1;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foot_desc-price {
+    font-weight: 700;
+  }

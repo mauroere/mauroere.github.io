@@ -5,12 +5,12 @@ import "../styles/styles.css";
 
 export const Home = () => {
   const greetings = "Ofertas de la semana";
-  const promo = "Pagá con MercadoPago"
+  const medioPago = "Pagá con MercadoPago";
 
   return (
     <div className="container-fluid">
       <NavBar />
-      <ItemListContainer greetings={greetings} mercadopago={promo} />
+      <ItemListContainer greetings={greetings} mercadopago={medioPago} />
     </div>
   );
 };
