@@ -15,9 +15,6 @@ export const ItemCount = ({ stock, initial, onAdd }) => {
   return (
     <div className="item">
       <div className="item-head_desc">
-        <div className="item-head_desc">
-          <p className="head_desc-name">Empanadas de Carne a Cuchillo</p>
-        </div>
         <button disabled={count <= initial} type="button" onClick={removeItem}>
           -
         </button>
